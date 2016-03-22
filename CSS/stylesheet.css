@@ -1,0 +1,616 @@
+/*****************
+General styling
+*****************/
+
+html {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 1.125em;
+  color: #494746;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header,
+nav,
+article,
+main,
+section,
+footer {
+  display: block;
+ }
+  
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+figure,
+figcaption {
+  display: inline-block;
+}
+	 
+
+/************************************************************
+Javascript Navigation Fixed Class for scrolling navigation
+************************************************************/
+
+
+.navbar-fixed {
+  position: fixed;
+  top: 0px;
+  opacity: 0.7;
+  background: -moz-linear-gradient(90deg, #5E5E5E, #363636);
+  background: -webkit-linear-gradient(90deg, #5E5E5E, #363636);
+  border-bottom: 1px solid black;
+  box-shadow: 1px 1px #F37021;
+}
+
+	 
+/**********
+Links
+***********/
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+	
+#contactInfo a {
+  color: #F37021;
+}
+	
+	
+/******************************
+Iframes (Video and Presentation)
+*******************************/
+
+		
+iframe {
+  border-top: 2px solid #F60;
+  box-shadow: 0 3px 5px #ccc;
+}
+	
+	
+/***********
+Main Header
+************/
+	
+main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 150px;
+}
+
+main img {
+  width: 100%;
+}
+  
+.logoWrap {
+  max-width: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+.logoWrap img {
+  width: 100%;	
+}
+  	 
+	 
+/***********
+Navigation
+*************/
+
+  
+nav {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  background: -moz-linear-gradient(90deg, #5E5E5E, #363636);
+  background: -webkit-linear-gradient(90deg, #5E5E5E, #363636);
+  color: white;
+  text-align: center;
+  padding: 0;
+}
+	
+nav ul {
+  margin: 0; 
+  padding: 0;
+  height: 60px;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+	
+nav ul li {
+  display: inline-block;
+  width: 8%;
+  height: 60px;
+  padding: 0;
+  border: 0 1px solid #FFF;
+  text-align: center;
+  vertical-align: center;
+}
+	
+nav ul li a {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding-top: 20px;
+  height: 60px;
+  color: #FFF;
+  box-sizing: border-box;
+}
+	
+nav ul li a:hover {
+  background-color: #F60;
+  border-left: 1px solid #F37021;
+  border-right: 1px solid #F37021;
+  text-shadow: 2px 2px 2px #000;
+}
+
+	
+/************* 
+PAGE: Home
+**************/
+	 
+#homeContent {
+  max-width: 960px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 0px;
+}
+	
+#home img {
+  width: 100%;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#homeIntro h1 {
+  margin: 50px 0;
+}
+	
+#homePageHeading {
+  font-size: 1.5em;
+  margin-bottom: 50px;
+}
+	
+.homeIntro {
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+  padding: 10px;
+}
+	
+.cta {
+  width: 145px;
+  height: 80px;
+  text-align: center;
+  background: linear-gradient(180deg, #f27120, #f88842);
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px;
+  padding: 30px 5px;
+  color: #f2efed;
+  float: right;
+  margin-right: 65px;
+  transition: background 1s, width 1s, height 1s;
+  -webkit-transition: background 1s, width 1s, height 1s;
+}
+	
+.cta a {
+  display: block;
+}
+	
+.cta:hover {
+  background: linear-gradient(180deg, #928d89, #f88842);
+  width: 150px;
+  height: 90px;
+}
+	
+
+/******************* 
+PAGE: Product Page
+********************/
+
+#emergencyLED {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0;
+}
+	
+.productIntro {
+  width: 100%;
+  margin: 6% 0;
+  padding: 5% 0;
+  font-size: 1.5em;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#headerTwo {
+  text-align: left;
+  margin-top: 80px;
+  font-size: 1em;
+  color: #f36f21;
+}
+
+.productContent {
+  width: 100%;
+  height: 450px;
+  padding: 0px;
+  margin: 5% 0;
+}
+	
+.icon {
+  display: inline-block;
+  max-width: 50px;
+  margin: 0;
+  padding: 15px 0 0 0;
+  float: left;
+}
+
+.figure {
+  width: 100%;
+}
+
+.heading {
+  display: inline-block;
+  width: 80%;
+  font-size: 1.1rem;
+  color: #5B5656;
+  text-align: left;
+  margin: 0;
+  padding: 20px 0 0 5%;
+  text-decoration: none;
+  float: left;
+}
+
+.content {
+  width: 70%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  float: left;
+  line-height: 2;
+}
+	
+.content p {
+  clear: both;
+}
+
+#pic1,
+#pic2 {
+  max-width: 180px;
+  float: right;
+  margin: 0 2% 0 0;	
+}
+	
+#pic1 img,
+#pic2 img {
+  width: 100%;
+}
+
+#presentation,
+#productVideo,
+#instructions {
+  margin: 5% 0;	
+}
+
+#presentation {
+  width: 100%;
+  padding: 0;
+}
+	
+#productVideo {
+  width: 100%;
+  height: 750px;
+  text-align: center;
+  padding: 90px 0 0 0;
+  clear: both;
+}
+	
+#productVideo h2 {
+  margin-bottom: 50px;
+}
+	
+#productVideo p {
+  margin-bottom: 50px;
+}
+
+#font2 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: .9em;
+  margin-top: 155px;	
+}
+
+.presentationtxt {
+  height: 300px;
+  width: 45%;
+  float: right;
+}
+	
+.pSlides {
+  width: 45%;
+  height: auto;
+  float: left;
+}
+	
+/******************************
+Instructions for use section
+******************************/
+
+
+#instructions {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  text-align: center;
+  border-top: 1px solid #C6C5C4;
+}
+	
+#contentI {
+  max-width: 900px;
+  height: auto;
+  margin: 50px auto 0;
+  padding: 50px;
+  text-align: left;
+  line-height: 1.6;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: #EDECEB;
+  border-top: 3px solid #F26F21;
+  box-shadow: 2px 2px 5px #444140;
+}
+	
+	
+.illustration {
+  max-width: 400px;
+  float: right;
+  display: inline-block;
+}
+
+
+/***********************************************
+The Navigation at the bottom of the product page
+***********************************************/
+
+
+#bnav {
+  text-align: center;
+  max-width: 960px;
+  margin: 80px auto 20px;
+  height: 300px;
+  clear: both;
+}
+	
+#bnav h2 {
+  margin-bottom: 50px;
+}
+	
+.bnav {
+  display: inline-block;
+  float: left;
+  width: 21%;
+  height: 50px;
+  margin: 5%;
+  background-color: #F60;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px #5B5756;
+}
+	
+.bnav a {
+  font-size: 1.125rem;
+  color: #333;
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+  padding-top: 5%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 0;
+}
+	
+.bnav a:hover {
+  background-color: rgba(255, 255, 250, .4);
+  color: #333;
+}
+
+
+/********************
+ Order form styling 
+*********************/
+
+
+#orderPage {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0;
+}
+	
+
+#orderForm {
+  width: 50%;
+  height: 600px;
+  border-radius: 5px;
+  box-shadow: inset 1px 1px 10px #b2b0af;
+  border: 2px solid #f36f21;
+  color: #2D2C2B;
+  margin: 50px 0;
+  float: left;
+  padding: 20px;
+  text-align: center;
+  overflow: auto;
+}
+	
+#orderForm h3,
+#contactForm h3 {
+  color: #696563;
+}
+	
+#orderForm fieldset {
+  width: 80%;
+  margin: 0 auto;
+}
+	
+#orderForm label{
+  width: 30%;
+  float: left;
+  text-align: right;
+  margin-right: 3px;
+}
+	
+#orderForm .field {
+  width: 60%;
+  float: left;
+}
+	
+#orderImg {
+  width: 45%;
+  float: right;
+  margin: 50px 0 0 0;
+  padding: 0;
+}
+	
+#orderImg img {
+  width: 100%;
+}
+	
+	
+	
+/*************************************
+Styling for order and contact buttons
+**************************************/
+	
+.submitButton {
+  height: 30px;
+  width: 60px;
+  background-color: #f36f21;
+  color: #FFF;
+  border-radius: 5px;
+  float: right;
+  margin: 25px 30px 0 0;
+  border: none;
+  box-shadow: 1px 1px 2px #494B4C;
+}
+	
+.submitButton:hover {
+  background-color: #a6a19f;
+}
+	
+	
+	
+/******************************
+Contact form styling
+*******************************/
+	
+#contactPage {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0;
+}
+	
+#contactForm {
+  width: 50%;
+  height: 600px;
+  padding: 4%;
+  box-shadow: inset 1px 1px 10px #b2b0af;
+  -webkit-box-shadow: inset 1px 1px 10px #b2b0af;
+  -moz-box-shadow: inset 1px 1px 10px #b2b0af;
+  color: #2D2C2B;
+  border: 2px solid #f36f21;
+  border-radius: 10px;
+  margin: 50px 0;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+}
+		
+#contactForm h3 {
+  color: #696563;
+}
+		
+#contactForm form {
+  height: 350px;
+  line-height: 20px;
+}
+		
+#contactForm .field {
+  width: 60%;
+  float: left;
+}
+		
+#contactForm label {
+  width: 30%;
+  float: left;
+  clear: left;
+  text-align: right;
+  margin-right: 5px;
+}
+		
+#contactForm fieldset {
+  width: 80%;
+  margin: 15px auto;	
+}
+		
+#contactForm input[type=checkbox] {
+  margin: 5px 0 0 5px;
+  float: left;
+}
+		
+#contactForm textarea {
+  width: 60%;
+  float: left;
+}
+		
+#contactInfo {
+  width: 40%;
+  height: 300px;
+  padding: 4% 5%;
+  border: 2px solid #f36f21;
+  color: #2D2C2B;
+  margin-top: 50px;
+  float: right;
+  border-radius: 10px;
+  box-shadow: inset 1px 1px 10px #b2b0af;
+}
+		
+#contactInfo h3 {
+  color: #696563;
+}
+		
+		
+/******************************
+	PAGE: THANK YOU
+*******************************/
+	
+		
+.thankYou {
+  width: 100%;
+  text-align: center;
+}
+	
+	

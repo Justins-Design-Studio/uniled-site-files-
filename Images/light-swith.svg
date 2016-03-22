@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="502px" height="683px" viewBox="0 0 502 683" enable-background="new 0 0 502 683" xml:space="preserve">
+<g>
+	<path fill="#F4F4F4" d="M483,639c0,9.941-8.059,18-18,18H38c-9.941,0-18-8.059-18-18V42c0-9.941,8.059-18,18-18h427
+		c9.941,0,18,8.059,18,18V639z"/>
+</g>
+<g opacity="0.2">
+	<g>
+		<path fill="#444443" d="M483,639c0,9.941-8.059,18-18,18H38c-9.941,0-18-8.059-18-18V42c0-9.941,8.059-18,18-18h427
+			c9.941,0,18,8.059,18,18V639z"/>
+	</g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="20" y="24" width="463" height="633">
+			<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+			<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="20" y="24" width="463" height="633" id="SVGID_1_">
+		<g filter="url(#Adobe_OpacityMaskFilter)">
+			<image overflow="visible" width="470" height="640" xlink:href="88790E3D.jpg"  transform="matrix(1 0 0 1 18 22)">
+			</image>
+		</g>
+	</mask>
+	<g opacity="0.3" mask="url(#SVGID_1_)">
+		<path fill="#161615" d="M483,639c0,9.941-8.059,18-18,18H38c-9.941,0-18-8.059-18-18V42c0-9.941,8.059-18,18-18h427
+			c9.941,0,18,8.059,18,18V639z"/>
+	</g>
+</g>
+<path fill="#E3E3E5" d="M413,576c0,9.941-8.059,18-18,18H105c-9.941,0-18-8.059-18-18V109c0-9.941,8.059-18,18-18h290
+	c9.941,0,18,8.059,18,18V576z"/>
+<rect x="158.5" y="167.5" fill="#F2F2F2" stroke="#666666" stroke-width="3" stroke-miterlimit="10" width="179" height="367"/>
+<rect x="160" y="354" fill="#B2B2B2" width="176" height="179"/>
+<path fill="#E8DAA3" d="M32.561,736.39c-18.141,21.917-47.432,27.047-65.427,11.457l0,0c-17.994-15.588-17.875-45.993,0.265-67.909
+	l208.802-252.275c18.14-21.917,47.432-27.045,65.425-11.457l0,0c17.995,15.588,17.875,45.994-0.264,67.91L32.561,736.39z"/>
+<path opacity="0.1" fill="#3F3F3E" d="M32.561,736.39c-18.141,21.917-47.432,27.047-65.427,11.457l0,0
+	c-17.994-15.588-17.875-45.993,0.265-67.909l208.802-252.275c18.14-21.917,47.432-27.045,65.425-11.457l0,0
+	c17.995,15.588,17.875,45.994-0.264,67.91L32.561,736.39z"/>
+<path fill="#F4F4F2" d="M239.133,468.005c-11.902,14.879-25.492,7.14-40.371-4.763s-25.412-23.461-13.51-38.34
+	s33.613-17.292,48.492-5.39C248.622,431.415,251.035,453.126,239.133,468.005z"/>
+<circle opacity="0.3" fill="#A5A47E" cx="104.5" cy="575.5" r="34.5"/>
+</svg>
