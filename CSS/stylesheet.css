@@ -266,7 +266,7 @@ PAGE: Product Page
 	
 .icon {
   display: inline-block;
-  max-width: 50px;
+  max-width: 70px;
   margin: 0;
   padding: 15px 0 0 0;
   float: left;
@@ -274,6 +274,7 @@ PAGE: Product Page
 
 .figure {
   width: 100%;
+  height: auto;
 }
 
 .heading {
