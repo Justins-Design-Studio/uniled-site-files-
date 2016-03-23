@@ -35,7 +35,7 @@
                 <p>Price: R265-00 incl VAT(Applicable to South Africa)</p>
                 <form action="order_mailscript.php" method="post" target="_blank">
                       <fieldset>
-                          <legend>Personal Information</legend>
+                          <legend>Personal Information:</legend>
                           <label>Surname:</label>
                           <input class="field" type="text" name="Surname" required id="Surname"><br>
                           <label>First Name:</label>
@@ -48,7 +48,7 @@
                           <input class="field" type="text" name="Cell" id="Cell"><br>
                       </fieldset>
                       <fieldset>
-                          <legend>Quantity</legend>
+                          <legend>Quantity:</legend>
                           <label>Bayonet:</label>
                           <input class="field" type="number" name="Bayonet" id="Bayonet"><br>
                           <label>Screw:</label>

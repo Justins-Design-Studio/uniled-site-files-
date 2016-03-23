@@ -455,10 +455,7 @@ The Navigation at the bottom of the product page
 
 #orderForm {
   width: 50%;
-  height: 600px;
-  border-radius: 5px;
-  box-shadow: inset 1px 1px 10px #b2b0af;
-  border: 2px solid #f36f21;
+  height: auto;
   color: #2D2C2B;
   margin: 50px 0;
   float: left;
@@ -471,10 +468,16 @@ The Navigation at the bottom of the product page
 #contactForm h3 {
   color: #696563;
 }
+
+#orderForm form {
+  border-radius: 5px;
+  border: 2px solid #f36f21;
+}
 	
 #orderForm fieldset {
+  border: none;
   width: 80%;
-  margin: 0 auto;
+  margin: 5% auto;
 }
 	
 #orderForm label{
@@ -485,6 +488,7 @@ The Navigation at the bottom of the product page
 }
 	
 #orderForm .field {
+  margin: 1%;
   width: 60%;
   float: left;
 }
@@ -502,24 +506,30 @@ The Navigation at the bottom of the product page
 	
 	
 	
-/*************************************
-Styling for order and contact buttons
-**************************************/
+/******************************************************
+Styling for order and contact buttons as well as legend
+*******************************************************/
 	
 .submitButton {
-  height: 30px;
-  width: 60px;
+  width: 120px;
   background-color: #f36f21;
   color: #FFF;
+  padding: 2%;
   border-radius: 5px;
   float: right;
   margin: 25px 30px 0 0;
   border: none;
   box-shadow: 1px 1px 2px #494B4C;
+  text-transform: uppercase;
 }
 	
 .submitButton:hover {
   background-color: #a6a19f;
+}
+
+legend {
+  font-size: 1.1em;
+  margin: 2%;
 }
 	
 	
@@ -536,11 +546,8 @@ Contact form styling
 	
 #contactForm {
   width: 50%;
-  height: 600px;
+  height: auto;
   padding: 4%;
-  box-shadow: inset 1px 1px 10px #b2b0af;
-  -webkit-box-shadow: inset 1px 1px 10px #b2b0af;
-  -moz-box-shadow: inset 1px 1px 10px #b2b0af;
   color: #2D2C2B;
   border: 2px solid #f36f21;
   border-radius: 10px;
@@ -560,6 +567,7 @@ Contact form styling
 }
 		
 #contactForm .field {
+  margin: 1%;
   width: 60%;
   float: left;
 }
@@ -574,7 +582,9 @@ Contact form styling
 		
 #contactForm fieldset {
   width: 80%;
-  margin: 15px auto;	
+  margin: 5% auto;
+  padding: 5%;	
+  border: none;
 }
 		
 #contactForm input[type=checkbox] {
@@ -596,7 +606,6 @@ Contact form styling
   margin-top: 50px;
   float: right;
   border-radius: 10px;
-  box-shadow: inset 1px 1px 10px #b2b0af;
 }
 		
 #contactInfo h3 {

@@ -47,7 +47,7 @@
                   <label>Cell:</label>
                   <input class="field" type="text" name="cell"><br>
                   <fieldset>
-                  <legend>Would you like to be invited to a Demo?</legend>
+                  <legend>Would you like a Demo?</legend>
                   <label>Yes</label>
                   <input type="checkbox" name="demoYes"  value="Yes"><br>
                   </fieldset>
