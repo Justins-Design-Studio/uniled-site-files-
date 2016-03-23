@@ -54,8 +54,8 @@
                           <label>Screw:</label>
                           <input class="field" type="number" name="Screw" id="Screw">
                       </fieldset>
-                      <input class="submitButton" type="submit" name="send">
-                      <input class="submitButton" type="reset" name="reset">
+                      <input class="submitButton" type="submit" name="send" value="Submit">
+                      <input class="submitButton" type="reset" name="reset" value="Reset">
                 </form>
           </div>
           

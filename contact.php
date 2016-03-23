@@ -55,8 +55,8 @@
                   <textarea type="textarea" name="comment" rows="10">
                   </textarea><br>
                   
-                  <input class="submitButton" type="submit">
-                  <input class="submitButton" type="reset">
+                  <input class="submitButton" type="submit" value="Submit">
+                  <input class="submitButton" type="reset" value="Reset">
                 
                 
                 </form>
