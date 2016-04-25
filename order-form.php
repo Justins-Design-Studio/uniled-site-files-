@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Now</title>
-    <link rel="stylesheet" href="css/order-style.css">
+    <link rel="stylesheet" href="CSS/order-style.css">
   </head>
   <body>
     <header>
@@ -23,6 +23,8 @@
             <input class="field" type="number" name="Bayonet" id="Bayonet" placeholder="Bayonet">
             <input class="field" type="number" name="Screw" id="Screw" placeholder="Screw">
         </fieldset>
+        <label for="address">Delivery Address:</label>
+        <input type="text" id="address" name="address">
         <label for="del-date">Delivery Date:</label>
         <input type="date" name="del-date" id="del-date">
         <input type="submit" name="submit-button" id="submit-button">

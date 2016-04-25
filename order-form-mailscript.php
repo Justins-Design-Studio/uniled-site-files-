@@ -9,6 +9,7 @@ $email = $_POST['user-email'];
 $tel = $_POST['user-number'];
 $bayonet = $_POST['Bayonet'];
 $screw = $_POST['Screw'];
+$address = $_POST['address'];
 $date = $_POST['del-date'];
 
 $message = <<<EMAIL
@@ -21,6 +22,7 @@ Tel: $tel
 Bayonet Quantity: $bayonet
 Screw Quantity: $screw
 
+Delivery Address: $address
 Delivery Date: $date
 
 
